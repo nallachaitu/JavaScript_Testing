@@ -21,9 +21,9 @@ public class ClassGenerator {
 		try 
 		{
 			ClassPool pool = ClassPool.getDefault();
-            // create the class 
-            CtClass class_ = pool.makeClass(className);
-            // create the method
+			// create the class 
+			CtClass class_ = pool.makeClass(className);
+			// create the method
 			String methodStub = "";
 			for (String methodName : methods)
 			{
